@@ -1,0 +1,11 @@
+{
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.inlineSuggest.triggerCommandOnProviderChange": true,
+    "search.searchView.keywordSuggestions": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "html.suggest.hideEndTagSuggestions": true,
+    "js/ts.suggest.completeFunctionCalls": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "chat.editor.copilotCli.hideExtensionHost": true
+}
