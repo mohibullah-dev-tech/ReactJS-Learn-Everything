@@ -21,6 +21,11 @@ const NetflixSeries = () =>{
   const name = "Queen of Tears";
   const rating = "8.2";
   const summary = " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt enim corporis dolorem minus adipisci molestias repellendus temporibus unde debitis in.";
+
+  const returnGenre = () =>{
+    const genre = "Romantic comedy";
+    return genre;
+  }
   return(
     <div>
       <div>
@@ -31,6 +36,7 @@ const NetflixSeries = () =>{
     <h2>Name: {name} </h2>
     <h3>Rating: {rating}</h3>
     <p>Summary: {summary} </p>
+    <p>Genre: {returnGenre()} </p>
     </div>
   );
 };
