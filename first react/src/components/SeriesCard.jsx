@@ -1,5 +1,5 @@
 const SeriesCard = (props) => {
-  const { series } = props;
+  const { series, watchButton } = props;
 
   return (
     <div>
@@ -18,9 +18,7 @@ const SeriesCard = (props) => {
       <p>Genre: {series.genre.join(", ")}</p>
       <p>Cast: {series.cast.join(", ")}</p>
 
-      <a href={series.watch_url} target="_blank">
-        <button>Watch Now</button>
-      </a>
+      {watchButton}
     </div>
   );
 };
